@@ -1,0 +1,37 @@
+body {
+    font-family:arial, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left:10px;
+}
+a:focus, a:hover {
+    font-style: italic;
+    color: orangered;
+}
+header h1 {
+    font-style: italic;
+    color:maroon;
+    text-indent: 30px
+}
+header h2 {
+    font-size:130%;
+    color:blue;
+    text-indent:30px;
+}
+header img {
+    float: left;
+}
+.shadow{
+    text-shadow: 2px 2px 2px rgb(128,0,0)
+}
+main {clear: left;
+}
+main h3 {
+    margin-top: 3em;
+}
+#list {
+    line-height: 1.5em;
+}
+footer p.copywright {
+    text-align: center;
+    font-size: 80%;
+}
