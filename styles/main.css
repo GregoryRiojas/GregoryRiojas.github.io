@@ -5,6 +5,9 @@ body {
     font-family:arial, Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left:10px;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
 }
 a:focus, a:hover {
     font-style: italic;
