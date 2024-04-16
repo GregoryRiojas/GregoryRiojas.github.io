@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
-    <link rel="stylesheet" href="syles/tables.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tables Q7</title>
+<link rel="stylesheet" href="styles/table.css">
 </head>
 <body>
-    <table class="first">
-        <caption>table 1: IT jobs and Salaries</caption>
-        tr>
+<table class="first">
+<caption>TABLE 1: IT Jobs and Salaries</caption>
+<tr>
 <th></th>
 <th>Job</th>
 <th>Salary</th>
@@ -109,3 +109,49 @@
 
 </body>
 </html>
+
+
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+table.first {
+border-collapse: separate;
+border: 2px solid black;
+}
+table.first th, table.first td {
+border: 2px solid blue;
+}
+table.first tr:nth-child(odd) {
+background-color: lightblue;
+}
+table.second {
+border-collapse: collapse;
+border: 2px solid purple;
+caption-side: bottom;
+}
+table.second th {
+background-color: salmon;
+}
+table.second th, table.second td {
+padding: .7em;
+vertical-align: middle;
+border: 2px solid purple;
+}
+table.third {
+border-collapse: collapse;
+}
+table.third th {
+vertical-align: top;
+background-color: lawngreen;
+border-top: 2px solid orangered;
+}
+table.third tr:first-child {
+border-top: 2px solid orangered;
+}
+table.third tr:last-child {
+border-bottom: 2px solid orangered;
+}
+table.third th, table.third td {
+padding: .7em;
+}
+
