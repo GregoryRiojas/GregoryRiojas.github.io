@@ -1,45 +1,42 @@
-* html,body{
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    table.first {
-    border-collapse: separate;
-    border: 2px solid black;
-    }
-    table.first th, table.first td {
-    border: 2px solid blue;
-    }
-    table.first tr:nth-child(odd) {
-    background-color: lightblue;
-    }
-    table.second {
-    border-collapse: collapse;
-    border: 2px solid purple;
-    caption-side: bottom;
-    }
-    table.second th {
-    background-color: salmon;
-    }
-    table.second th, table.second td {
-    padding: .7em;
-    vertical-align: middle;
-    border: 2px solid purple;
-    }
-    table.third {
-    border-collapse: collapse;
-    }
-    table.third th {
-    vertical-align: top;
-    background-color: lawngreen;
-    border-top: 2px solid orangered;
-    }
-    table.third tr:first-child {
-    border-top: 2px solid orangered;
-    }
-    table.third tr:last-child {
-    border-bottom: 2px solid orangered;
-    }
-    table.third th, table.third td {
-    padding: .7em;
-    }
-    
-
+font-family: Arial, Helvetica, sans-serif;
+}
+table.first {
+border-collapse: separate;
+border: 2px solid black;
+}
+table.first th, table.first td {
+border: 2px solid blue;
+}
+table.first tr:nth-child(odd) {
+background-color: lightblue;
+}
+table.second {
+border-collapse: collapse;
+border: 2px solid purple;
+caption-side: bottom;
+}
+table.second th {
+background-color: salmon;
+}
+table.second th, table.second td {
+padding: .7em;
+vertical-align: middle;
+border: 2px solid purple;
+}
+table.third {
+border-collapse: collapse;
+}
+table.third th {
+vertical-align: top;
+background-color: lawngreen;
+border-top: 2px solid orangered;
+}
+table.third tr:first-child {
+border-top: 2px solid orangered;
+}
+table.third tr:last-child {
+border-bottom: 2px solid orangered;
+}
+table.third th, table.third td {
+padding: .7em;
+}
